@@ -1,0 +1,17 @@
+>>> import httplib,json,urllib,urllib2
+>>> conn = httplib.HTTPConnection("url","port")
+>>> param = {"user_id":"ID", "user_pass":"PASSWD"}
+>>> headers = {"Accept":"application/json", "Content-Type":"application/json"}
+>>> encode = json.dumps(param)
+>>> 
+>>> 
+>>> conn.request("POST","/authorization_urltree",encode,headers)
+>>> res1 = conn.getresponse()
+>>> cookie = req.getheader("Set-Cookie")
+>>> print cookie
+JSESSIONID=DBD76E4A5DF52C3A423461F96AC941D1; Path=/cors/; HttpOnly
+>>> req2 = urllib2.Request("URL")
+>>> req2.add_header('cookie',cookie)
+>>> res2 = urllib2.urlopen(req2)
+>>> data2 = res2.read()
+>>> print data2
