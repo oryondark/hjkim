@@ -23,15 +23,8 @@ class BitArray:
         idx = (num - 1) // 32 # get array idx
         print("get num " + str(num) +" array index :" + str(idx))
         locate = num - (32*idx) -1 # get bit position
-        #print(locate)
-        """
-        >>> format(mask<<5, '#032b')
-        '0b000000000000000000000000100000'
-        """
 
         self.BitArray[idx] ^= self.MASK << locate
-        #print(format(self.BitArray[idx], "#032b"))
-        #print(self.BitArray)
 
     def clear(self):
         array_size = len(self.BitArray)
