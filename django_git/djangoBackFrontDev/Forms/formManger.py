@@ -5,5 +5,6 @@ class inputForm(forms.Form):
     u_birth = forms.IntegerField(label="birthday", )
     u_hobby = forms.CharField(label="hobby", max_length=100)
 
-
+class choiceForm(forms.Form):
+    c_name = forms.CharField(label="inputName", max_length=50)
 

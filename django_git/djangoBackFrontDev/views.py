@@ -4,7 +4,7 @@ from django.http import HttpResponse
 #from django.template import loader # for html
 from django.shortcuts import render
 
-from .Forms.formManger import inputForm
+from .Forms.formManger import inputForm, choiceForm
 # Create your views here.
 
 def loadPagelinks():
@@ -40,4 +40,26 @@ def djangoInputpage(request):
             fk_userbirth.save()
     
     return render(request, 'polls/inputPage.html', {'formclass':formclass})
+
+def djangoOutputpage(request):
+    
+    formclass = choiceForm(request.GET)
+    if request.method == "GET":
+        #print(Userinfo.objects.all())
+
+        if formclass.is_valid():
+            name = formclass['c_name'].data
+            userinfo = Userinfo.objects.filter(u_name=name)
+            getinfo = userinfo.values_list('id','u_name','u_hobby')[0]
+            getbirth = userinfo[0].userbirth_set.values_list('u_birth')[0][0]
+            
+
+            return render(request, 'polls/outPage.html',{'formclass':formclass,
+                                                            'getinfo':getinfo,
+                                                            'getbirth':getbirth
+                                                             })
+            
+    
+    return render(request, 'polls/outPage.html', {'formclass':formclass})
+
 

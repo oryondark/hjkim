@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset = "UTF-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title> Hello, Welcome Django First app page </title>
+</head>
+<body>
+	<header><h1> Output Page! </header>
+		<form method="GET">
+			{% csrf_token %}
+			<p>
+			<label> 이름을 입력하세요  </label>
+			{{ formclass.c_name }}
+			<p>
+			<input type="submit" value="OK">
+		</form>
+		
+		{% if getinfo %}
+		<p> {{getinfo}} {{getbirth}}
+		{% endif %}
+
+</body>
+
