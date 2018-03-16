@@ -21,8 +21,8 @@ def tokenCheck():
 def userSignIn():
 
 	print("Please input your ACCESSTOKEN and SECRETKEY that The Key-Information received from CoinOne Mail.")
-	ONE.ACCESS_TOKEN = input("input Access token (from coinone mail) : ")
-	ONE.SECRET_KEY = input("input SECRET KEY (from coinone mail) : ")
+	ONE.ACCESS_TOKEN = input("input Access token (from coinone mail) : ").strip()
+	ONE.SECRET_KEY = input("input SECRET KEY (from coinone mail) : ").strip()
 
 
 def selectAction(num):
@@ -104,8 +104,8 @@ def main():
 	return main()
 
 if __name__ == "__main__":
-	ONE = CoinOneOrder()
-	urlapi = CoinOneURLapi()
+	#ONE = CoinOneOrder()
+	#urlapi = CoinOneURLapi()
 
 	print("CoinOne에 오신 것을 환영합니다.\n"+
 			"먼저 유저 등록을 진행해 주세요.(5번)\n"+
