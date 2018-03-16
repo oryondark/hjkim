@@ -28,29 +28,30 @@ class CoinOneURLapi():
     ###########################################################
 
 	def get_URL_api(self, action):
-		# Sell, Buy URL API
+		# URL API
 		switch = { 1 : 'v2/order/limit_buy/',
 				   2 : 'v2/order/limit_sell/',
-				   3 : 'v2/account/user_info/'
+				   3 : 'v2/account/user_info/',
+				   4 : 'v2/account/balance/',
+				   7 : 'v2/transaction/history/',
 				 }
 
 		return switch.get(action, 9)#default '9'
 
 
 
-
 	#get data from coinOne server.
 	#you should must be make 'state block'.
-	def response(self, secretkey,HOST,endpointPath, payload):
+	def response(self, secretkey,HOST,endpointPath, parmameter):
 
-		json_payload = self.__get_payload(payload)
+		json_payload = self.__get_payload(parmameter)
 		signature = self.__get_signature(secretkey,json_payload)
 		headers = self.__req_header(json_payload, signature)
 		URL = HOST + endpointPath
 		req = Request(URL, data=json_payload, headers=headers, method='POST')
-		print(str(URL))
-		print(str(json_payload))
-		print(str(headers))
+		#print(str(URL))
+		#print(str(json_payload))
+		#print(str(headers))
 		res = urlopen(req)
 
 		return res

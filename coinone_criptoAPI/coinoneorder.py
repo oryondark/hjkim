@@ -25,8 +25,24 @@ class CoinOneOrder():
 					   }
 
 		return createParm
+	def transaction_parm(self, coinName):
+		t = int(time.time()*1000)
+		createParm = {
+			'access_token':self.ACCESS_TOKEN,
+			'currency': coinName,
+			'nonce':t,
+		}
 
+	#convert to json that is for read from recieved webserver(bytes)data.
+	def read_json(self, res):
+		dump = json.dumps(res.decode('utf-8'))
+		#print(type(dump))
+		info = json.loads(dump)
+		if type(info).__name__ != 'dict':
+			#if info value isn't dict then onemore time initiation to loads json.
+			info = json.loads(info)
+		#print(type(info))
 
-
+		return info
 
 
