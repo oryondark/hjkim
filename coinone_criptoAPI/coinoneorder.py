@@ -1,6 +1,9 @@
 import hashlib, hmac, time, json
+# create by KIM.H.J
 
 class CoinOneOrder():
+    # if want to private store KEY,
+    # I will to create Private source program(XOR cripto store)
 	ACCESS_TOKEN = ''
 	SECRET_KEY = ''
 	API_HOST = 'https://api.coinone.co.kr/'

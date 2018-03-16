@@ -1,5 +1,6 @@
 import json, hashlib, hmac, base64
 from urllib.request import urlopen, Request
+# create by KIM.H.J
 
 class CoinOneURLapi():
 

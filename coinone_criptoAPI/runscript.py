@@ -2,6 +2,8 @@
 from coinoneorder import CoinOneOrder
 from coinoneurl import CoinOneURLapi
 import json
+#CoinOne create by KIM.H.J
+
 
 ONE = CoinOneOrder()
 API = CoinOneURLapi()
