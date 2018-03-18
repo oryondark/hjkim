@@ -1,4 +1,4 @@
-CoinOne API project.
+Welcome to CoinOne API project.
 
 Python 3.6
 
