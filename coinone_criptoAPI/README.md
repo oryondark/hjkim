@@ -1,5 +1,9 @@
 CoinOne API project.
 
+AIM : CoinOne open buy and sell programe. create by CoinOne API doc.
+This project is for buy, for sell, and for get history and information
+
+
 Python 3.6
 
 $ python runscript.py
