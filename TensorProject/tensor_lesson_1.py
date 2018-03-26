@@ -7,7 +7,7 @@ if os.environ.get('TensorFlow','AVX2') == 'AVX2':
 
 
 from sklearn.datasets import fetch_california_housing
-
+#Hands-On ML & TensorFlow.
 
 def tensor_lesson_1():
     housing = fetch_california_housing()
@@ -37,4 +37,8 @@ def tensor_lesson_1():
 if __name__=="__main__":
     #start to tensor_main.
     tensor_lesson_1()
+    #tensor_lesson_2()
+    #tensor_lesson_3()
+    #tensor_lesson_4()
+
 
