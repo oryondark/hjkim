@@ -24,7 +24,7 @@ My Contiribute.
 > My simple script created by script that is use only <function method>.
   
   
-TankYou
+ThankYou
 --------
 
 **Please, My profile overview.**<br>
