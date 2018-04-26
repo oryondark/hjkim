@@ -34,4 +34,6 @@ ThankYou
 ``` https://blog.naver.com/4u_olion ```
 
 **Project Language**<br>
-``` Python, Java, JavaScript, C, PHP ```
+``` Python, Java, JavaScript, C, PHP, Hadoop Programming(MapReduce) ```
+<br>
+``` Back-End & Front-End Developer Engineer & BigData Engineer ```
