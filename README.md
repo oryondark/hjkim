@@ -12,3 +12,9 @@ My Contiribute.
 
 **Please, My profile overview.**<br>
 ``` https://github.com/oryondark?tab=stars ```
+
+**My Blog**<br>
+``` https://blog.naver.com/4u_olion ```
+
+**Project Language**
+``` Python, Java, JavaScript, C, PHP ```
