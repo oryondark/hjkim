@@ -1,7 +1,8 @@
 I had been created to auto-selection.js for contribute Annotorious.
 
-This is function of method created below.
-Kookmin Univ. BigData Lab. kookmin-labs
+This is function of method created below. <br>
+Kookmin Univ. BigData Lab. <br>
+
 forked in annotorious 
 
 
