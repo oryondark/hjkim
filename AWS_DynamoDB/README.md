@@ -8,7 +8,7 @@ _Can following the link to click_
 
 * ######[Table, Article and Attribute](#table-and-article-and-attribute)
 * ######[Key](#key)
-* ######[Secondary Indexes](#secondary indexes)
+* ######[Secondary Indexes](#secondary-indexes)
 * ######[DynamoDB Streams](#dynamodb-streams)
 * ######[Usage API](#dynamodb-api)
 
