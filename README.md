@@ -10,6 +10,17 @@ Welcome to My github Project.<br>
 My name is KIM HYUNJUNE.<br>
 <br>
 
+My Study document.
+-
+Overview link
+
+1. [Annotation markdown][1]
+2. [AWS DynamoDB markdown][2]
+
+
+[1]:https://github.com/oryondark/-/tree/master/Annotation
+[2]:https://github.com/oryondark/-/tree/master/AWS_DynamoDB
+
 
 My Contiribute.
 --------
