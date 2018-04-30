@@ -50,34 +50,34 @@ _Can following the link to click_
 ### DynamoDB API
 
    * ###### Control 
-   	- CreateTable : 새로운 테이블 생성
-	- DescribeTable : 기본키와 각 항목에 지정된 제약, index formation 등의 Table 정보를 반환
-	- ListTables : 모든 Table name을 List로 반환
-	- UpdateTable : Table과 관련된 모든 행위의 대해 수정사항을 반영
-	- DeleteTable : 지정한 Table 및 그 Table의 종속되는 수 많은 Tab을 모두 제거.
+   		- CreateTable : 새로운 테이블 생성
+		- DescribeTable : 기본키와 각 항목에 지정된 제약, index formation 등의 Table 정보를 반환
+		- ListTables : 모든 Table name을 List로 반환
+		- UpdateTable : Table과 관련된 모든 행위의 대해 수정사항을 반영
+		- DeleteTable : 지정한 Table 및 그 Table의 종속되는 수 많은 Tab을 모두 제거.
 
 
    * ###### Data Plan
-   	- Creating
-   		1. PutItem : table내 Item을 생성하며, primary Key 지정 필수
-   		2. BatchWriteItem : 최고 25개의 대한 Item 정보를 작성가능하며, PutItem을 통한 Network의 연속적 부하가 적다.
+   		- Creating
+   			1. PutItem : table내 Item을 생성하며, primary Key 지정 필수
+   			2. BatchWriteItem : 최고 25개의 대한 Item 정보를 작성가능하며, PutItem을 통한 Network의 연속적 부하가 적다.
 
-   	- Reading 
-   		1. GetItem : 오직 1개의 Item 만을 가져온다. 이것은 전체 항목이나 일부 지정된 항목을 통해 검색이 가능하며, Primary Key 지정 필수
-   		2. BatchGetItem : 최대 100개까지의 Item 정보를 가져올 수 있다. 단, 1개 이상의 Table의 대해 모든 호출될 수 있는 Item의 갯수는 총 100개를 뜻 한다.
-   		3. Query : 조건으로 Index, Table, Partition Key(필수 지정) & Sort Key를 이용하여 일부 범위부터 전체 항목의 대해 조건에 부합하는 모든 Item의 정보를 질의 할 수 있다.
-   		4. Scan : Table과 Index 정보를 통해 원하는 Item을 받아 올 수 있으며, Filter기능을 사용할 시 관심있는 데이터만을 질의할 수 있다.
+   		- Reading 
+   			1. GetItem : 오직 1개의 Item 만을 가져온다. 이것은 전체 항목이나 일부 지정된 항목을 통해 검색이 가능하며, Primary Key 지정 필수
+   			2. BatchGetItem : 최대 100개까지의 Item 정보를 가져올 수 있다. 단, 1개 이상의 Table의 대해 모든 호출될 수 있는 Item의 갯수는 총 100개를 뜻 한다.
+   			3. Query : 조건으로 Index, Table, Partition Key(필수 지정) & Sort Key를 이용하여 일부 범위부터 전체 항목의 대해 조건에 부합하는 모든 Item의 정보를 질의 할 수 있다.
+   			4. Scan : Table과 Index 정보를 통해 원하는 Item을 받아 올 수 있으며, Filter기능을 사용할 시 관심있는 데이터만을 질의할 수 있다.
 
-   	- Updating 
-   		1. UpdateItem : 하나 이상의 수정된 정보를 Partition Key를 이용하여, 해당하는 Article로 Update.
+   		- Updating 
+   			1. UpdateItem : 하나 이상의 수정된 정보를 Partition Key를 이용하여, 해당하는 Article로 Update.
    						이때 속성의 대한 정보를 추가하거나 삭제도 가능하며, Update 상태를 열람할 수 있는 선택적 기능도 포함된다.
 
-   	- Deleting
-   		1. DeleteItem : 한개의 Item을 삭제.
-   		2. BatchWriteItem : 최대 25개까지 삭제 가능.
+   		- Deleting
+   			1. DeleteItem : 한개의 Item을 삭제.
+   			2. BatchWriteItem : 최대 25개까지 삭제 가능.
 
    * ###### DynamoDB Streams
-   	- ListStreams : Returns a list of all your streams, or just the stream for a specific table.
-   	- DescribeStream : Returns information about a stream, such as its Amazon Resource Name (ARN) and where your application can begin reading the first few stream records.
-   	- GetShardIterator : Returns a shard iterator, which is a data structure that your application uses to retrieve the records from the stream.
-   	- GetRecords : Retrieves one or more stream records, using a given shard iterator.
+   		- ListStreams : Returns a list of all your streams, or just the stream for a specific table.
+   		- DescribeStream : Returns information about a stream, such as its Amazon Resource Name (ARN) and where your application can begin reading the first few stream records.
+   		- GetShardIterator : Returns a shard iterator, which is a data structure that your application uses to retrieve the records from the stream.
+   		- GetRecords : Retrieves one or more stream records, using a given shard iterator.
