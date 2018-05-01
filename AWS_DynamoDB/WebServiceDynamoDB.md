@@ -40,12 +40,30 @@
 3. ### DynamoDB WebService API
 	
 	* __Create Table__
-		: AWS.DynamoDB().createTable(param, function(err, data));
-		: err = return error , data = return successful data
+		: AWS.DynamoDB().createTable(param, function(err, data))<br>
+		: err = return error , data = return successful data<br>
 	* __Read Table__
-		: AWS.DynamoDB().get(param, function(err, data));
-		: if you set sort key, you've to write sortKeyName when send query.
-	
+		: AWS.DynamoDB().get(param, function(err, data));<br>
+		: if you set sort key, you've to write sortKeyName when send query.<br>
+		for example code below.
+		```
+    		var doc = docClient.get(params,function(err,data){
+    			var isSuccess = false;
+
+    			if(err){
+    				console.log("readTables error",err)
+    			} else {
+    				var obj = objToJson(data)
+    				isSuccess = receiveQuery(obj)
+    			}
+		
+    			if(isSuccess == true){
+		
+		    		
+		    	}
+
+    		});	
+		```
 	
 	
 
