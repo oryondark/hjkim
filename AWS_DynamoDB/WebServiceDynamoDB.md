@@ -20,7 +20,7 @@
 		- Setting AWS region to using the Global Configure.
 			AWS.confg.update({region: 'region'})
 		- Setting AccessKey & SecretKey, example simple code below.
-			```
+			
 			<pre>
 				<script type="text/javascript">
 					AWS.config.update({
@@ -30,16 +30,24 @@
 						secretAccessKey: ""
 				})
 				</script>
-
-			</pre> 
-
-			```
+				
+				var dynamoDB = AWS.DynamoDB(); // Prepared to use aws_dynamodb_api
+				
+			</pre>
+			
 			Show service region&enpoints List [link][1]
 
-
-
-
-
+3. ### DynamoDB WebService API
+	
+	* __Create Table__
+		: AWS.DynamoDB().createTable(param, function(err, data));
+		: err = return error , data = return successful data
+	* __Read Table__
+		: AWS.DynamoDB().get(param, function(err, data));
+		: if you set sort key, you've to write sortKeyName when send query.
+	
+	
+	
 
 [1]:https://docs.aws.amazon.com/general/latest/gr/rande.html#ddb_region
 [2]:https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/ 
