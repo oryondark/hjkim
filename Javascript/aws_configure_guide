@@ -1,0 +1,24 @@
+### Ajax Post 
+```
+function ajaxPost(){
+  var xmlRequest = new XMLHttpRequest();
+  var url = ''; // recommanded to use window.location.href
+  
+  $.ajax({
+      data:'' ,
+      url:'' ,
+      method:'' ,
+      contentType: '',
+      dataType: '',
+      success: function(msg){
+          //
+      },
+      error: function(error, status){
+          //
+      }
+  })
+}
+```
+
+### PHP
+* I will to use php that use aws_sdk_php.
