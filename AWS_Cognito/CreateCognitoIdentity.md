@@ -1,4 +1,4 @@
-# Linkage DynamoDB
+# Cognito Configuration
 
 ### 1. create new credential.
 Open https://aws.amazon.com/, and then choose Create an AWS Account.<br><br>
