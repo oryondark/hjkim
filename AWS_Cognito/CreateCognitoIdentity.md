@@ -38,8 +38,53 @@ You should look like at the below.
   ![alt text](https://github.com/oryondark/-/blob/master/AWS_Cognito/IAM%EC%A0%95%EC%B1%85%EC%83%9D%EC%84%B1.png)
   
   [3] and next, must be select policy. are you done it? Good!<br>
+  [4] finally, look at below.<br><br>
+  ![alt text](https://github.com/oryondark/-/blob/master/AWS_Cognito/%EC%8B%A0%EB%A2%B0%EA%B4%80%EA%B3%84%ED%8E%B8%EC%A7%91.png)<br>
+  
+  [5] copy code.
+  ```
+  {
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Federated": "cognito-identity.amazonaws.com"
+      },
+      "Action": "sts:AssumeRoleWithWebIdentity",
+      "Condition": {
+        "StringEquals": {
+          "cognito-identity.amazonaws.com:aud": "identityPoolId"
+        },
+        "ForAnyValue:StringLike": {
+          "cognito-identity.amazonaws.com:amr": "unauthenticated"
+        }
+      }
+    }
+  ]
+}
+  ```
 
-### 3. Connect to Application <br>
+### 5. Configuration
+\<**java Script**\>
+<pre>
+var mycred = new AWS.CognitoIdentityCredentials({
+	region: 'region',
+	IdentityPoolId:'IdentityPoolId',
+	RoleArn: 'IAM Role Arn',
+	Logins:{
+
+	}
+});    
+
+AWS.config.credentials = mycred;
+AWS.config.region = "ap-northeast-2";
+AWS.config.version = "latest";
+var dynamodb = new AWS.DynamoDB();
+    
+</pre>
+  
+### 4. Connect to Application <br>
 
   **1\. [DynamoDB]**
   
