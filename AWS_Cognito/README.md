@@ -13,4 +13,9 @@ AWS Cognito have two way for you application access.
   : 
 
 
-## Get Started Together.
+## Get Started Together. <br>
+
+  * **[Cognito_Configuration]**
+
+
+[Cognito_Configuration]:https://github.com/oryondark/-/blob/master/AWS_Cognito/CreateCognitoIdentity.md "Cognito Configuration"
