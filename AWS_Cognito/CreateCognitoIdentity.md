@@ -88,6 +88,16 @@ var dynamodb = new AWS.DynamoDB();
   **1\. [DynamoDB]**
   
 
+### 5. 임시 자격 증명 ID 얻기 <br>
+
+```javascript
+function getIdentity(){
+	AWS.config.credentials.get(function () {
+		setClientIdentityId(AWS.config.credentials.data.SubjectFromWebIdentityToken);
+	});
+}
+```
+
 
 [development guide]:https://aws.amazon.com/ko/cognito/getting-started/ "cognito page"
 [DynamoDB]:https:// ""
