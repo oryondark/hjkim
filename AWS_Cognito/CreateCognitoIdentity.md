@@ -67,7 +67,7 @@ You should look like at the below.
 
 ### 5. Configuration
 \<**java Script**\>
-<pre>
+```Javascript
 var mycred = new AWS.CognitoIdentityCredentials({
 	region: 'region',
 	IdentityPoolId:'IdentityPoolId',
@@ -81,8 +81,7 @@ AWS.config.credentials = mycred;
 AWS.config.region = "ap-northeast-2";
 AWS.config.version = "latest";
 var dynamodb = new AWS.DynamoDB();
-    
-</pre>
+```
   
 ### 4. Connect to Application <br>
 
