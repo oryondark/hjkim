@@ -2,7 +2,7 @@
 
 !! 필독 !!
 DynamoDB Json에서 Key 부분은 변수가 할당되지 않는다. 
-따라서 ExpressionAttrbuteValues 와 ExpressionAttributeNames를 활용하여 Key를 Matching 해야한다.
+따라서 ExpressionAttrbuteValues 와 ExpressionAttributeNames를 활용하여 Key를 Mapping 해야한다.
 그 예제는 아래와 같다.
 
 ```Javascript
@@ -15,7 +15,7 @@ DynamoDB Json에서 Key 부분은 변수가 할당되지 않는다.
 			}
 		},
 		ExpressionAttributeNames:{
-			"#keyMap": value, // -> Key is match to variable.
+			"#keyMap": value, // -> Key is mapped to variable.
 		},
 		ExpressionAttributeValues: {
 			":keyMap": {
