@@ -63,7 +63,7 @@ _Can following the link to click_
    			2. BatchWriteItem : 최고 25개의 대한 Item 정보를 작성가능하며, PutItem을 통한 Network의 연속적 부하가 적다.
 
    		- Reading 
-   			1. GetItem : 오직 1개의 Item 만을 가져온다. 이것은 전체 항목이나 일부 지정된 항목을 통해 검색이 가능하며, Primary Key 지정 필수
+   			1. [GetItem] : 오직 1개의 Item 만을 가져온다. 이것은 전체 항목이나 일부 지정된 항목을 통해 검색이 가능하며, Primary Key 지정 필수
    			2. BatchGetItem : 최대 100개까지의 Item 정보를 가져올 수 있다. 단, 1개 이상의 Table의 대해 모든 호출될 수 있는 Item의 갯수는 총 100개를 뜻 한다.
    			3. Query : 조건으로 Index, Table, Partition Key(필수 지정) & Sort Key를 이용하여 일부 범위부터 전체 항목의 대해 조건에 부합하는 모든 Item의 정보를 질의 할 수 있다.
    			4. Scan : Table과 Index 정보를 통해 원하는 Item을 받아 올 수 있으며, Filter기능을 사용할 시 관심있는 데이터만을 질의할 수 있다.
@@ -81,3 +81,6 @@ _Can following the link to click_
    		- DescribeStream : Returns information about a stream, such as its Amazon Resource Name (ARN) and where your application can begin reading the first few stream records.
    		- GetShardIterator : Returns a shard iterator, which is a data structure that your application uses to retrieve the records from the stream.
    		- GetRecords : Retrieves one or more stream records, using a given shard iterator.
+
+
+[GetItem]:https://github.com/oryondark/-/blob/master/AWS_DynamoDB/getItem.md "link for Example GetItem"
