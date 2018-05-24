@@ -6,7 +6,7 @@ DynamoDB Json에서 Key 부분은 변수가 할당되지 않는다.
 그 예제는 아래와 같다.
 
 ```Javascript
-  var value;
+	var value;
 	var dynamodb = new AWS.DynamoDB();
 	var parm = {
 		Key: {
@@ -34,8 +34,8 @@ DynamoDB Json에서 Key 부분은 변수가 할당되지 않는다.
 		ReturnValues:"UPDATED_OLD"
 	};
   
-  dynamodb.updateItem(parm, function(err, data){
-    if(err) console.log(err);
-    else console.log(data);
-  });
+  	dynamodb.updateItem(parm, function(err, data){
+  	  if(err) console.log(err);
+	  else console.log(data);
+  	});
 ```
