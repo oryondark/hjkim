@@ -26,7 +26,7 @@
  }
  
  // @ [2] Prototype
- basicFunction.prototype.createMethod = "Test"
+ basicFunction.prototype.createMethod = "Test" // Cloned.
  
  ```
 
