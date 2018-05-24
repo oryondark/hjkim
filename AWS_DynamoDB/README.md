@@ -69,7 +69,7 @@ _Can following the link to click_
    			4. Scan : Table과 Index 정보를 통해 원하는 Item을 받아 올 수 있으며, Filter기능을 사용할 시 관심있는 데이터만을 질의할 수 있다.
 
    		- Updating 
-   			1. UpdateItem : 하나 이상의 수정된 정보를 Partition Key를 이용하여, 해당하는 Article로 Update.
+   			1. [UpdateItem] : 하나 이상의 수정된 정보를 Partition Key를 이용하여, 해당하는 Article로 Update.
    						이때 속성의 대한 정보를 추가하거나 삭제도 가능하며, Update 상태를 열람할 수 있는 선택적 기능도 포함된다.
 
    		- Deleting
@@ -84,3 +84,4 @@ _Can following the link to click_
 
 
 [GetItem]:https://github.com/oryondark/-/blob/master/AWS_DynamoDB/getItem.md "link for Example GetItem"
+[UpdateItem]:https://github.com/oryondark/-/blob/master/AWS_DynamoDB/updateItem.md "link for Example UpdateItem"
