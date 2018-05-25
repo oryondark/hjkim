@@ -46,4 +46,4 @@
 }
 ```
 
-[get for permission Resource]:https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/Streams.Lambda.Tutorial.html#Streams.Lambda.Tutorial.SNSTopic "follow link"
+[get for permission Resource]:https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/api-permissions-reference.html "follow link"
