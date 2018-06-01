@@ -3,7 +3,8 @@
 | Option | Description |
 |--|--|
 | -d, -driver="bridge" | set driver|
-| -aux-address=map[] | 
+| -ip-range=[] | allocate range |
+| -subnet=[] | Subnet mask |
 
 
 ### Configure for network base<br>
