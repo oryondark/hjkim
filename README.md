@@ -34,7 +34,8 @@ My Contiribute.
 
 
 **History:**
-  * Development Annotation Platform for Web by using [Annotorious]
+  * (front) Development Annotation Platform for Web by using [Annotorious]
+  * (back) Development Crop Image Service for Python by using [PIL]
 
   
 ThankYou
@@ -53,3 +54,4 @@ ThankYou
 
 
 [Annotorious]:https://github.com/annotorious/annotorious
+[PIL]:https://pillow.readthedocs.io/en/5.1.x/
