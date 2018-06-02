@@ -34,7 +34,7 @@ My Contiribute.
 
 
 **History:**
-  * [Annotorious]
+  * Development Annotation Platform for Web by using [Annotorious]
 
   
 ThankYou
