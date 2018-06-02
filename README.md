@@ -34,8 +34,11 @@ My Contiribute.
 
 
 **History:**
-  * (front) Development Annotation Platform for Web by using [Annotorious]
+  * (front) Development Annotation Platform for Web by using [Annotorious] 
+   > PHP, JAVASCRIPT, AWS Service
+   
   * (back) Development Crop Image Service for Python by using [PIL]
+   > Python
 
   
 ThankYou
