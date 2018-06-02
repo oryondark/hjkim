@@ -116,4 +116,4 @@ runnable_2
 		System.out.println("Thread end!!");
 	}
 ```
-* try run Source code.
+* Try to run Source code.
