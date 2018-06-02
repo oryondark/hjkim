@@ -1,5 +1,6 @@
 1.[Thread](#thread)<br>
 2.[Runnable](#runnable)
+3.[Join](#join)
 
 ### Thread
 
@@ -89,3 +90,30 @@ runnable_1
 runnable_2
 ```
 
+### Join
+```java
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrintText p = new PrintText();
+		PrintText p2 = new PrintText();
+		p.setText("Thread_1");
+		p2.setText("Thread_2");
+		System.out.println("Thread Start!!");
+		p.start();
+		p2.start();
+		
+		try { // throw Exception.
+			
+			// timeSleep!!!
+			p.join();
+			// timeSleep!!!
+			p2.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// ok go!
+		System.out.println("Thread end!!");
+	}
+```
+* try run Source code.
