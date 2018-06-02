@@ -80,7 +80,7 @@ class RunnableTest extends ExtendedClass implements Runnable{
 	}
 
 ```
-* for success, you can see that look at like the below.
+* if succeed, you can see that look at like the below.
 ```shell
 runnable_0
 runnable_0
