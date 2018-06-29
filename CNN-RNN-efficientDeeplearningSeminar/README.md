@@ -2,6 +2,7 @@ CNN 과 RNN 기초 및 응용과 분산 처리 딥러닝 프레임워크의 더�
 본 세미나는 개인적으로 준비한 세미나 임으로 공개하고 있습니다.
 
 ***
+for AI club file.
 In this seminar, is not to get benefit for presentation.
 ***
 
