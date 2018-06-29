@@ -12,4 +12,7 @@ In this seminar, is not to get benefit for presentation.
 3. https://www.oreilly.com/ideas/distributed-tensorflow
 
 ----------------------------
+***updated History***
+
 1) 2018.06.25 미완성 PPT 업로드
+2) 2018.06.30 미완성 PPT 
