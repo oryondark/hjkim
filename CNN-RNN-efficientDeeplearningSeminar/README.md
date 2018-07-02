@@ -10,7 +10,9 @@ In this seminar, is not to get benefit for presentation.
 1. 이은주 (2017). CNN과 RNN의 기초 및 응용 연구. 방송과 미디어. 22(1).87-95.
 2. Optimus: an efficient dynamic resource scheduler for deep learning clusters
 3. Rectified Linear Units Improve Restricted Boltzmann Machines
-3. https://www.oreilly.com/ideas/distributed-tensorflow
+4. https://www.oreilly.com/ideas/distributed-tensorflow
+5. Dominant Resource Fairness: Fair Allocation of Multiple Resource Types
+6. Multi-Resource Packing for Cluster Schedulers
 
 ----------------------------
 ***updated History***
