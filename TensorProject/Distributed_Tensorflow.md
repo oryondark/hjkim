@@ -9,3 +9,6 @@ config = tf.ConfigProto(gpu_options=g_opt)
 sess = tf.Session(config=config)
 sess.run()
 ```
+
+2. riseML platform for easy tensorflow scheduling<br>
+https://riseml.com/
