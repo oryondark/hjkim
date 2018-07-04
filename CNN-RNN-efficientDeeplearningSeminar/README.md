@@ -13,6 +13,7 @@ In this seminar, is not to get benefit for presentation.
 4. https://www.oreilly.com/ideas/distributed-tensorflow
 5. Dominant Resource Fairness: Fair Allocation of Multiple Resource Types
 6. Multi-Resource Packing for Cluster Schedulers
+7. https://mxnet.incubator.apache.org/faq/model_parallel_lstm.html
 
 ----------------------------
 ***updated History***
