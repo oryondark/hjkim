@@ -13,6 +13,6 @@ sess.run()
 2. riseML platform for easy tensorflow scheduling<br>
 https://riseml.com/ <br>
 
-3. Distributed Tensorflow on Kubernetes
-https://mengdong.github.io/2017/07/15/distributed-tensorflow-with-gpu-on-kubernetes-and-mapr/ 
+3. Distributed Tensorflow on Kubernetes <br>
+https://mengdong.github.io/2017/07/15/distributed-tensorflow-with-gpu-on-kubernetes-and-mapr/ <br>
 
