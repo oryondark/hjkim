@@ -20,3 +20,5 @@ In this seminar, is not to get benefit for presentation.
 
 1) 2018.06.25 미완성 PPT 업로드
 2) 2018.06.30 미완성 PPT 
+3) 2018.07.04 upload ppt
+4) 2018.0u.05 model and data parallel.
