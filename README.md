@@ -16,6 +16,9 @@ Overview link
 
 1. [Annotation markdown][1]
 2. [AWS DynamoDB markdown][2]
+3. Deep Learninng Open Seminar (-- upon the anvil --)
+4. Web Crawling (-- upon the anvil --)
+5. Naver Data Science Competition 2018 ( enjoy )
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
