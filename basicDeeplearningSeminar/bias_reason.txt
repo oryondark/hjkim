@@ -1,0 +1,17 @@
+1.
+down vote
+To think in simple way,if you have y=w1*x where y is your output and w1 is the weight imagine a condition where x=0 then y=w1*x equals to 0,If you want to update your weight you have to compute how much change by delw=target-y where target is your target output,in this case 'delw' will not change since y is computed as 0.So,suppose if you can add some extra value it will help y=w1*x+w0*1,where bias=1 and weight can be adjusted to get a correct bias.Consider the example below.
+
+In terms of line Slope-intercept is a specific form of linear equations.
+
+y=mx+b
+
+check the image
+
+image
+
+here b is (0,2)
+
+if you want to increase it to (0,3) how will you do it by changing the value of b which will be your bias
+
+
