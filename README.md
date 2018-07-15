@@ -1,7 +1,7 @@
 My project
 현재는 Contribute 작업을 활발히 진행 중.
 
-BigData / SoftWare Engineer
+**Data Scientist and Software Developer**
 By hjKim.
 
 <br>
