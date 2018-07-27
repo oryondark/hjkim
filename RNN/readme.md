@@ -25,6 +25,4 @@
     Yao Ming * Shaozu Cao * Ruixiang Zhang * Zhen Li * Yuanzhe Chen *
     Yangqiu Song, Member, IEEE * Huamin Qu, Member, IEEE *
     
-    
-    
-    --- 계속 수정 중 ---
+  * 
