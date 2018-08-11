@@ -20,6 +20,7 @@ Overview link
 3. Deep Learninng Open Seminar (-- upon the anvil --)
 4. Web Crawling (-- upon the anvil --)
 5. Naver Data Science Competition 2018 ( enjoy )
+6. RNN
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
