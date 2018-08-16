@@ -16,6 +16,13 @@
                 "ec2:DescribeInstances"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:SendCommand"
+            ],
+            "Resource": "*"
         }
     ]
 }
