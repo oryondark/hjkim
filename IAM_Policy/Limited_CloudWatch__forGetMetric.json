@@ -23,6 +23,13 @@
                 "ssm:SendCommand"
             ],
             "Resource": "*"
+        },
+        {
+            "Effect":"Allow",
+            "Action":[
+                "iam:PassRole"
+            ],
+            "Resource":"*"
         }
     ]
 }
