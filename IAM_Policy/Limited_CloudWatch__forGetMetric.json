@@ -13,7 +13,8 @@
         {
             "Effect": "Allow",
             "Action": [
-                "ec2:DescribeInstances"
+                "ec2:DescribeInstances",
+                "ec2:AssociateIamInstanceProfile"
             ],
             "Resource": "*"
         },
@@ -25,11 +26,35 @@
             "Resource": "*"
         },
         {
-            "Effect":"Allow",
-            "Action":[
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateRole",
                 "iam:PassRole"
             ],
-            "Resource":"arn:aws:iam::741926482963:role/hjkim_cloudwatch_agent_server_role"
+            "Resource": "arn:aws:iam::741926482963:role/agent_server_role"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:CreateInstanceProfile",
+                "iam:AddRoleToInstanceProfile"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:AttachRolePolicy"
+            ],
+            "Resource": "arn:aws:iam::741926482963:role/agent_server_role",
+            "Condition": {
+                "StringLike": {
+                    "iam:PolicyARN": [
+                        "arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforSSM",
+                        "arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy"
+                    ]
+                }
+            }
         }
     ]
 }
