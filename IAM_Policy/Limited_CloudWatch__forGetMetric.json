@@ -29,7 +29,7 @@
             "Action":[
                 "iam:PassRole"
             ],
-            "Resource":"*"
+            "Resource":"arn:aws:iam::741926482963:role/hjkim_cloudwatch_agent_server_role"
         }
     ]
 }
