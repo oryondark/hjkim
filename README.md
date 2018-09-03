@@ -22,7 +22,7 @@ Overview link
 4. Web Crawling (-- upon the anvil --)
 5. Naver Data Science Competition 2018 ( enjoy )
 6. RNN
-7. The Implement of UNet for Sementation and for detection
+7. [The Implement of UNet for Sementation and for detection](https://blog.naver.com/4u_olion/221351002145)
 8. Read and analyse to A Comparative Study of Contaniners and VMs.
 
 
