@@ -31,7 +31,7 @@
                 "iam:CreateRole",
                 "iam:PassRole"
             ],
-            "Resource": "resource arn"
+            "Resource": "arn:aws:iam::741926482963:role/agent_server_role"
         },
         {
             "Effect": "Allow",
@@ -46,7 +46,7 @@
             "Action": [
                 "iam:AttachRolePolicy"
             ],
-            "Resource": "resource arn",
+            "Resource": "arn:aws:iam::741926482963:role/agent_server_role",
             "Condition": {
                 "StringLike": {
                     "iam:PolicyARN": [
