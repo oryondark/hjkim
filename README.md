@@ -24,6 +24,7 @@ Overview link
 6. RNN
 7. [The Implement of UNet for Sementation and for detection](https://blog.naver.com/4u_olion/221351002145)
 8. [Read and analyse to A Comparative Study of Contaniners and VMs.](https://blog.naver.com/4u_olion/221371562138)
+9. Semantic Segmentation Convolution Neural Network
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
