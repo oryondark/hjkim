@@ -25,6 +25,7 @@ Overview link
 7. [The Implement of UNet for Sementation and for detection](https://blog.naver.com/4u_olion/221351002145)
 8. [Read and analyse to A Comparative Study of Contaniners and VMs.](https://blog.naver.com/4u_olion/221371562138)
 9. [Semantic Segmentation Convolution Neural Network](https://m.blog.naver.com/PostView.nhn?blogId=4u_olion&logNo=221389158208&navType=tl)
+10. Deep Learning Infrastructure pipline implementation(Invoke endpoint) by AWS Sagemaker. (101 - 301 tutorial document)
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
