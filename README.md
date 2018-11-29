@@ -49,6 +49,8 @@ My Contiribute.
    
   * (back) Development Crop Image Service for Python by using [PIL]
    > Python
+  
+  * Deepdive inference use by sagemaker, lambda, apigateway, and AWS APP
 
   
 ThankYou
