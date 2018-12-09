@@ -26,6 +26,7 @@ Overview link
 8. [Read and analyse to A Comparative Study of Contaniners and VMs.](https://blog.naver.com/4u_olion/221371562138)
 9. [Semantic Segmentation Convolution Neural Network](https://m.blog.naver.com/PostView.nhn?blogId=4u_olion&logNo=221389158208&navType=tl)
 10. Deep Learning Infrastructure pipline implementation(Invoke endpoint) by AWS Sagemaker. (101 - 301 tutorial document)
+11. Implementation of Inference Module with Front workflow pipe for Data Preprocessing.
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
@@ -67,6 +68,8 @@ ThankYou
 <br>
 ``` Back-End & Front-End Developer Engineer & BigData Engineer ```
 
+
+**Data Engnieer Kim**
 
 [Annotorious]:https://github.com/annotorious/annotorious
 [PIL]:https://pillow.readthedocs.io/en/5.1.x/
