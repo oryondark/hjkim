@@ -1,8 +1,8 @@
 
 # Data Augmentation
 
-**Generating new training instances from exsiting ones**
-![image.png](-/DeepLearning_master/Augmentation_Tutorial/스크린샷 2019-01-09 오후 1.26.13.png)
+**Generating new training instances from exsiting ones**<br>
+![image.png](https://github.com/oryondark/-/blob/master/DeepLearning_master/Augmentation_Tutorial/스크린샷%202019-01-09%20오후%201.26.13.png)
 
 
 **Data augmentation is usually done as part of your input data pipeline that feeds your model while training. Randomly, instead of feeding an original training image, you will instead apply some augmentations to change it.<br>**
