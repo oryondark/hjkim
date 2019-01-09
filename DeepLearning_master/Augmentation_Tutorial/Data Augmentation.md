@@ -161,7 +161,7 @@ def data_flip(saved_dir, data, img, rate, type, saving_enable=False):
 3) scale – Isotropic scale factor.<br>
 4) map_matrix – The output affine transformation, 2x3 floating-point matrix.<br><br>
 
-![image.png](attachment:image.png)<br><br>
+![rotateImage](https://github.com/oryondark/-/blob/master/DeepLearning_master/Augmentation_Tutorial/스크린샷%202019-01-09%20오후%201.26.34.png)<br><br>
 
 
 ```python
