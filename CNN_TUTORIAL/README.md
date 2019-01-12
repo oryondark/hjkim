@@ -3,3 +3,4 @@
 ---
 1. [CNN Tutorial](https://github.com/oryondark/-/blob/master/DeepLearning_master/ConvolutionNet.ipynb)
 2. FCN/Atrous for Seg
+3. [Data Augmentation Manual example](https://github.com/oryondark/-/blob/master/DeepLearning_master/Augmentation_Tutorial/Data%20Augmentation.md)
