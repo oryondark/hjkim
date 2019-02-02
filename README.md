@@ -9,7 +9,7 @@ By hjKim.
 Welcome to My github Project.<br>
 My name is KIM HYUNJUNE.<br>
 KOOKMIN Univ. BIGDATA labs<br>
-AI-LAB KOREA researcher.
+(previous) AI-LAB KOREA researcher.
 <br>
 
 My Study document.
