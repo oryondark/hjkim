@@ -12,7 +12,7 @@ KOOKMIN Univ. BIGDATA labs<br>
 (previous) AI-LAB KOREA researcher.
 <br>
 
-My Study document.
+My Studing document.
 -
 Overview link
 
@@ -22,11 +22,12 @@ Overview link
 4. Web Crawling (-- upon the anvil --)
 5. Naver Data Science Competition 2018 ( enjoy )
 6. RNN
-7. [The Implement of UNet for Sementation and for detection](https://blog.naver.com/4u_olion/221351002145)
-8. [Read and analyse to A Comparative Study of Contaniners and VMs.](https://blog.naver.com/4u_olion/221371562138)
-9. [Semantic Segmentation Convolution Neural Network](https://m.blog.naver.com/PostView.nhn?blogId=4u_olion&logNo=221389158208&navType=tl)
+7. [Paper Review : The Implement of UNet for Sementation and for detection](https://blog.naver.com/4u_olion/221351002145)
+8. [Paper Review : Read and analyse to A Comparative Study of Contaniners and VMs.](https://blog.naver.com/4u_olion/221371562138)
+9. [Paper Review : Semantic Segmentation Convolution Neural Network](https://m.blog.naver.com/PostView.nhn?blogId=4u_olion&logNo=221389158208&navType=tl)
 10. Deep Learning Infrastructure pipline implementation(Invoke endpoint) by AWS Sagemaker. (101 - 301 tutorial document)
 11. Implementation of Inference Module with Front workflow pipe for Data Preprocessing.
+12. [Paper Review : HoloClean : Holistic Data Repairs with Probabilistic Inference] (https://blog.naver.com/4u_olion/221445442646)
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
