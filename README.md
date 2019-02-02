@@ -34,7 +34,7 @@ Overview link
 [2]:https://github.com/oryondark/-/tree/master/AWS_DynamoDB
 
 
-My Contiribute.
+Contiribute.
 --------
 
 1. Image Processing 을 위한 해외 Opensource Project Library Package로 Contiributor로서 새로운 패키지를 추가.
