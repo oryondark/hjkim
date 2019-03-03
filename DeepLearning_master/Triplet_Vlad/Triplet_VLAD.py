@@ -18,7 +18,7 @@ from netvlad import TripletNet
 from customDataLoader3 import DataLoader
 
 '''
-Durty code but you can understood the generator way.
+Dirty code but you can understood the generator way.
 '''
 def data_generator(T=True, shf=True):
     '''
