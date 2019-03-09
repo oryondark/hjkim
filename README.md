@@ -44,7 +44,7 @@ Contiribute.
 
 3. JavaScript Package를 활용한 Prototype Plugin Module 및 Import Dom script 구현.
 
-4. Leveraging Opensource, which is light-bootstrip-dashboard, of Visualization Page visualize T-SNE.
+4. Leveraging Django-Frameworks and Opensource, which is light-bootstrip-dashboard, of Visualization Page visualize T-SNE.
 
 
 **History:**
