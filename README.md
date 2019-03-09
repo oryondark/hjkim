@@ -28,6 +28,7 @@ Overview link
 10. Deep Learning Infrastructure pipline implementation(Invoke endpoint) by AWS Sagemaker. (101 - 301 tutorial document)
 11. Implementation of Inference Module with Front workflow pipe for Data Preprocessing.
 12. [Paper Review : HoloClean : Holistic Data Repairs with Probabilistic Inference](https://blog.naver.com/4u_olion/221445442646)
+13. Visualization Page
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
