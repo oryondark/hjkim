@@ -48,6 +48,9 @@ Contiribute.
 
 4. Leveraging Django-Frameworks and Opensource, which is light-bootstrip-dashboard, of Visualization Page visualize T-SNE.
 
+5. Tensorflow-Slim을 fork하여 분석 및 자유로운 Contiribution 중 <br>
+   [my_repo_copy_from_original](https://github.com/oryondark/models) <br>
+   [original_repo](https://github.com/tensorflow/models)
 
 **History:**
   * (front) Development Annotation Platform for Web by using [Annotorious] 
