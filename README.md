@@ -18,9 +18,9 @@ Overview link
 
 1. [Annotation markdown][1]
 2. [AWS DynamoDB markdown][2]
-3. Deep Learninng Open Seminar (-- upon the anvil --)
-4. Web Crawling (-- upon the anvil --)
-5. Naver Data Science Competition 2018 ( enjoy )
+3. Deep Learninng Open Seminar
+4. Web Crawling
+5. Naver Data Science Competition 2018
 6. RNN
 7. [Paper Review : The Implement of UNet for Sementation and for detection](https://blog.naver.com/4u_olion/221351002145)
 8. [Paper Review : Read and analyse to A Comparative Study of Contaniners and VMs.](https://blog.naver.com/4u_olion/221371562138)
