@@ -76,7 +76,7 @@ ThankYou
 **Project Language**<br>
 ``` Python, Java, JavaScript, C, PHP, Hadoop Programming(MapReduce) ```
 <br>
-``` Back-End & Front-End Developer Engineer & BigData Engineer ```
+``` Data Engineer on Cloud Computing ```
 
 
 **Data Engnieer Kim**
