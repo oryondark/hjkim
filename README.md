@@ -28,7 +28,7 @@ Overview link
 10. Deep Learning Infrastructure pipline implementation(Invoke endpoint) by AWS Sagemaker. (101 - 301 tutorial document)
 11. Implementation of Inference Module with Front workflow pipe for Data Preprocessing.
 12. [Paper Review : HoloClean : Holistic Data Repairs with Probabilistic Inference](https://blog.naver.com/4u_olion/221445442646)
-13. [Implementation to Web-based Annotation tagging system and KNN visualization](https://github.com/oryondark/StarAdmin-Free-Bootstrap-Admin-Template/blob/master/src/demo_1/index.html)<br>
+13. [Implementation of Search System using KNN on Deep Learning platform](https://github.com/oryondark/StarAdmin-Free-Bootstrap-Admin-Template/blob/master/src/demo_1/index.html)<br>
 "knn module repo is private, so i don't provide code."
 14. cloud-based or fashion-based healthcare case study presentation, and proposal IoT Infrastructure.
 15. [Paper Review : Decoupling the Control Plane from Program Control Flow for Flexibility and Performance in Cloud Computing ]()
