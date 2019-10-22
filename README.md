@@ -31,6 +31,7 @@ Overview link
 13. Implementation to Web-based Annotation tagging system and KNN visualization
 14. cloud-based or fashion-based healthcare case study presentation, and proposal IoT Infrastructure.
 15. [Paper Review : Decoupling the Control Plane from Program Control Flow for Flexibility and Performance in Cloud Computing ]()
+16. [KDBC2019] Deep Learning Serving System using Serverless Computing. (Oral session)
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
