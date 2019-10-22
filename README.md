@@ -12,7 +12,7 @@ KOOKMIN Univ. BIGDATA labs, major of Computer Enginnering, department of Converg
 (previous) AI-LAB KOREA researcher.
 <br>
 
-My Studing document.
+My Experiments.
 -
 Overview link
 
