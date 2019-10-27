@@ -73,12 +73,6 @@ ThankYou
 **My Blog**<br>
 ``` https://blog.naver.com/4u_olion ```
 
-**Project Language**<br>
-``` Python, Java, JavaScript, C, PHP, Hadoop Programming(MapReduce) ```
-<br>
-``` Data Engineer on Cloud Computing ```
-
-
 **Data Engnieer Kim**
 
 [Annotorious]:https://github.com/annotorious/annotorious
