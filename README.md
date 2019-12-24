@@ -1,7 +1,7 @@
 My project
 현재는 Contribute 작업을 활발히 진행 중.
 
-**Data Scientist and Software Developer**
+**Data Engineer and Software Developer**
 By hjKim.
 
 <br>
@@ -76,7 +76,10 @@ ThankYou
 **My Blog**<br>
 ``` https://blog.naver.com/4u_olion ```
 
-**Data Engnieer Kim**
+**Lab hompage<br>
+http://kmubigdata.cloud/activity/
+
+**Data Engineer Kim**
 
 [Annotorious]:https://github.com/annotorious/annotorious
 [PIL]:https://pillow.readthedocs.io/en/5.1.x/
