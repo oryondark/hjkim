@@ -35,7 +35,6 @@ Overview link
 16. [KDBC2019] Deep Learning Serving System using Serverless Computing. (Oral session)
 17. [Fashion Search Web Platform with Deep learning and KNN](https://github.com/oryondark/StarAdmin-Free-Bootstrap-Admin-Template)
 18. [Paper Review Wide&Deep Learning for recommender system by Google.](https://blog.naver.com/4u_olion/221709710583)
-19. [Cifar10 Generator (no use tensorflow or other frameworks)](https://github.com/oryondark/makeCifarBatchGenerator)
 
 
 [1]:https://github.com/oryondark/-/tree/master/Annotation
