@@ -3,7 +3,7 @@
 ## Machine Learning Engineer and AWS Certified Cloud Developer
 <br>
 <br>
-My name is *Hyunjune Kim*, you can call '*Jey*'<br>
+My name is *Hyunjune Kim*, you can call 'Jey'<br>
 KOOKMIN Univ. BIGDATA labs, major of Computer Engineering, department of Convergence Design and Technology<br>
 *Kyungyong Lee*, my professor is him, an assistant professor in Kookmin University.<br>
 I'm a certified Developer using AWS Cloud(Associate).<br>
