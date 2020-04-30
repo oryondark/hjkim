@@ -1,6 +1,6 @@
 
 # Welcome to my Github repository
-## Machine Learning Engineer and AWS Certified Cloud Developer**
+## Machine Learning Engineer and AWS Certified Cloud Developer
 <br>
 <br>
 My name is *Hyunjune Kim*, you can call '*Jey*'<br>
