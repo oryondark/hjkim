@@ -1,6 +1,4 @@
-/* Question 2.
-   SEJONG SIVER Univ. 
-   14931480 KIMHYUNJUNE */
+
 #include "score.h"
 
 
@@ -18,27 +16,27 @@ int main(int argc, char **argv){
 	setStudentInfo(head_st);
 	/*
 	printf("%s\n", head_st->name);
-	printf("%s\n", head_st->cls);	
-	printf("%s\n", head_st->lang_art);	
+	printf("%s\n", head_st->cls);
+	printf("%s\n", head_st->lang_art);
 	printf("%s\n", head_st->english);
 	printf("%s\n", head_st->math);
 	*/
 	while(processing != 0){
 		printf("Is there anything more data ?[y/n]\n");
-		
+
 		char YN[10];
 		char y[] = "y";
-		char n[] = "n";	
-		gets(YN);	
-		
+		char n[] = "n";
+		gets(YN);
+
 		if(strcmp(YN,y) == 0){
-			setStudentInfo(head_st);	
+			setStudentInfo(head_st);
 		}
 		if(strcmp(YN,n) == 0){
 			break;
 		}
 	}
-	
+
 	print_total_st_score(head_st);
 	free(head_st);
 
@@ -50,8 +48,8 @@ void print_total_st_score(struct student **prv_st){
 
 	printf("  name  |  class  |  language  |  english  |  math  |\n");
 	printf("-----------------------------------------------------\n");
-	
-	
+
+
 	while(ptr_st != NULL){
 
 		printf("%s\n", ptr_st->name);
@@ -66,15 +64,15 @@ void setStudentInfo(struct student **prv_st){
 	char lang_art[20];
 	char english[20];
 	char math[20];
-	
+
 
 	char buf[249];
 
 	student *new_st = NULL;
-	new_st = (student *)malloc(sizeof(student));	
+	new_st = (student *)malloc(sizeof(student));
 	student *ptr_st = NULL;
 	ptr_st = *prv_st;
-	
+
 	printf("input name \n");
 	gets(name);
 	printf("input class \n");
@@ -85,7 +83,7 @@ void setStudentInfo(struct student **prv_st){
 	gets(english);
 	printf("input math score \n");
 	gets(math);
-	
+
 	sprintf(buf, " %s | %d | %d | %d | %d |", name,atoi(cls),atoi(lang_art),atoi(english),atoi(math));
 
 	memcpy(new_st->name, buf, sizeof(buf) + 1);
@@ -93,10 +91,10 @@ void setStudentInfo(struct student **prv_st){
 	new_st->n_st = NULL;
 	if(*prv_st == NULL){
 		*prv_st = new_st;
-		return;	
+		return;
 	}
 	while(ptr_st->n_st != NULL){
-		ptr_st = ptr_st->n_st; 
+		ptr_st = ptr_st->n_st;
 	}
 	ptr_st->n_st = new_st;
 	printf("Done.\n");

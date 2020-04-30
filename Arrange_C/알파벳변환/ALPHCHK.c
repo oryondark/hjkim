@@ -1,17 +1,15 @@
-/* Question 1.
-   SEJONG SIVER Univ. 
-   14931480 KIMHYUNJUNE */
+
 
 
 #include "ALPHCHK.h"
 char *check_alph(char alpha){
 	char *buf = NULL;
-	buf = &alpha;	
+	buf = &alpha;
 
 	int return_value;
 
 	return_value = isalpha(alpha);
-	
+
 	if(return_value != 0){
 		printf("set uppercase %c\n", (char)toupper(alpha));
 		return buf;
@@ -35,21 +33,21 @@ int input_scan(){
 	if( ret == NULL ){
 		return 0;
 	}
-	
+
 	return 1;
 }
 
 
 void main(int argc, char **argv){
-	int ret2;	
+	int ret2;
 	printf("*** 14931480 KIMHYUNJUNE report	***\n");
 	while(1){
 		ret2 = input_scan();
 		if(ret2 == 1)
-			break;	
+			break;
 	}
-		
 
-	
+
+
 
 }
