@@ -8,7 +8,7 @@ KOOKMIN Univ. BIGDATA labs, major of Computer Engineering, department of Converg
 I'm a certified Developer using AWS Cloud(Associate).<br>
 
 ## Blog
-[My Blog](https://blog.naver.com/4u_olion)
+[My Blog](https://blog.naver.com/4u_olion)<br>
 [Bigdata Labs](http://kmubigdata.cloud/)
 
 ## Research Subject
