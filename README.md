@@ -13,7 +13,7 @@ I'm a certified Developer using AWS Cloud(Associate).<br>
 
 ## Research Subject
 Implementation and Evaluation to Deep Learning Serverless Platform<br>
-Optimization Serverless Platform<br>
+Optimization of Serverless Platform<br>
 Building a efficiently Deep Learning Platform
 
 ## Experiments.
