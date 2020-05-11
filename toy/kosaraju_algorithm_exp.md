@@ -1,5 +1,6 @@
 ### kosaraju algorithm Example
-**referenced from GeeksForGeeks**
+**referenced from GeeksForGeeks**<br>
+**알고리즘 해설:https://blog.naver.com/4u_olion/221957452720**
 <br>
 <br>
 ```python
