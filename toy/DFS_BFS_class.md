@@ -45,24 +45,6 @@ class Graph():
         visited = []
         self._dfs(st_node, visited)
         print(visited)
-        
-                
-def solution(n, edges):
-    #if len(edges) == 2:
-    #    return 1
-    graph = Graph()
-    answer = 0
-    for node in edges:
-        graph.addNode(node)
-    #print(graph.getGraph())
-    table = graph.bfs(1, n)
-    max_value = max(table)
-    #print(table)
-    for maximum in table:
-        if maximum == max_value:
-            answer += 1
-        
-    return answer
 ```
 
 
