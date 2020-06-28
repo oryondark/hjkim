@@ -27,6 +27,6 @@ Building a efficiently Deep Learning Platform
 7. [VoiceRecognition GCP](https://github.com/oryondark/VoiceRecognitionGCP)
 8. [Convergence_Sensorplatform](https://github.com/oryondark/CRC-Sensor-platform)
 9. [Mentor and made tutorial book](https://air.cs.kookmin.ac.kr/)
-
+10. [Jenkins for Nodejs with Docker](https://github.com/oryondark/jenkins_workshop_hjkim)
 
 ### Best regards!
